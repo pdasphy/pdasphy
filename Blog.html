@@ -3,8 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Blog | Pritam Das</title>
+
   <meta name="description" content="Blog and activity updates of Pritam Das: research, lab development, outreach, conferences, and academic activities." />
+
   <style>
     :root {
       --bg: #f6f7fb;
@@ -17,8 +20,14 @@
       --shadow: 0 14px 35px rgba(17, 24, 39, 0.08);
     }
 
-    * { box-sizing: border-box; }
-    html { scroll-behavior: smooth; }
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
     body {
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
@@ -27,8 +36,14 @@
       line-height: 1.65;
     }
 
-    a { color: var(--accent); text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
 
     header {
       position: sticky;
@@ -122,8 +137,14 @@
       color: #111827;
     }
 
-    h3 { margin: 0 0 6px; color: #111827; }
-    p { margin: 0 0 12px; }
+    h3 {
+      margin: 0 0 6px;
+      color: #111827;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
 
     .post {
       border-left: 4px solid var(--accent-soft);
@@ -143,17 +164,6 @@
       margin-top: 8px;
     }
 
-    .edit-box {
-      background: #f9fafb;
-      border: 1px solid var(--line);
-      border-radius: 12px;
-      padding: 16px;
-      font-family: "Courier New", monospace;
-      font-size: 0.9rem;
-      white-space: pre-wrap;
-      overflow-x: auto;
-    }
-
     footer {
       max-width: 1120px;
       margin: 20px auto 50px;
@@ -164,10 +174,22 @@
     }
 
     @media (max-width: 820px) {
-      .nav { align-items: flex-start; flex-direction: column; }
-      .menu { justify-content: flex-start; }
-      .hero { padding: 28px; }
-      .hero h1 { font-size: 2.05rem; }
+      .nav {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      .menu {
+        justify-content: flex-start;
+      }
+
+      .hero {
+        padding: 28px;
+      }
+
+      .hero h1 {
+        font-size: 2.05rem;
+      }
     }
   </style>
 </head>
@@ -176,6 +198,7 @@
   <header>
     <nav class="nav">
       <a class="brand" href="index.html">Pritam Das</a>
+
       <div class="menu">
         <a href="index.html#about">About</a>
         <a href="index.html#research">Research</a>
@@ -189,11 +212,16 @@
   <main class="container">
     <div class="hero">
       <h1>Blog & Activities</h1>
-      <div class="subtitle">Research updates, lab activities, academic notes, outreach, and professional milestones.</div>
+
+      <div class="subtitle">
+        Research updates, lab activities, academic notes, outreach, and professional milestones.
+      </div>
+
       <p>
         This page is a simple place to record activities that may not fit into a formal CV, such as lab development,
         invited talks, conference participation, teaching/outreach activities, project updates, and short research notes.
       </p>
+
       <div class="tags">
         <span class="tag">Research Updates</span>
         <span class="tag">Lab Activities</span>
@@ -206,55 +234,44 @@
     <section id="posts">
       <h2>Recent Activities</h2>
 
-      <!-- Copy one full <article class="post"> ... </article> block to add a new activity. -->
-
       <article class="post">
         <div class="post-date">May 2026</div>
+
         <h3>Development of vapor-cell-based quantum magnetic sensor prototype</h3>
+
         <p>
           Continuing work on vapor-cell magnetometry and product-oriented quantum magnetic sensor development,
           including optical alignment, magnetic-field control, lock-in detection, and system-level integration.
         </p>
+
         <div class="post-meta">Category: Quantum sensing / Lab development</div>
       </article>
 
       <article class="post">
         <div class="post-date">2025–2026</div>
+
         <h3>Transition from Ph.D. research to quantum-technology development</h3>
+
         <p>
           After submitting my Ph.D. synopsis, I joined QuBeats and began leading R&amp;D activities focused on taking
           vapor-cell-based magnetic sensing from laboratory experiments toward deployable prototypes.
         </p>
+
         <div class="post-meta">Category: Career update / Technology translation</div>
       </article>
 
       <article class="post">
         <div class="post-date">2025</div>
+
         <h3>Research on anisotropic excitons and Raman processes in ReS<sub>2</sub> microcavities</h3>
+
         <p>
           Doctoral research focused on light–matter interaction in anisotropic 2D-material microcavities,
           including exciton–polaritons, resonance Raman scattering, and polarization-dependent optical response.
         </p>
+
         <div class="post-meta">Category: Ph.D. research / 2D materials</div>
       </article>
-    </section>
-
-    <section id="how-to-edit">
-      <h2>How to Add a New Activity</h2>
-      <p>
-        Open <strong>blog.html</strong> in GitHub, click the pencil/edit icon, and copy-paste this block inside the
-        <strong>Recent Activities</strong> section. Then change the date, title, description, and category.
-      </p>
-
-      <div class="edit-box">&lt;article class=&quot;post&quot;&gt;
-  &lt;div class=&quot;post-date&quot;&gt;Month Year&lt;/div&gt;
-  &lt;h3&gt;Title of the activity&lt;/h3&gt;
-  &lt;p&gt;
-    Write a short description of the activity here. You can mention a talk, experiment,
-    conference, outreach event, project update, lab development, or publication news.
-  &lt;/p&gt;
-  &lt;div class=&quot;post-meta&quot;&gt;Category: Research / Outreach / Conference / Teaching&lt;/div&gt;
-&lt;/article&gt;</div>
     </section>
   </main>
 
